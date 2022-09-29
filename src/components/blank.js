@@ -5,7 +5,6 @@ function Blank() {
   return (
     <>
       <div id="wrapper">
-        <SideBar />
         <div id="content">
           <TopBar />
           {/* <!-- Begin Page Content --> */}

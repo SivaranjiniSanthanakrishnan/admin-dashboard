@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../css/sb-admin-2.min.css";
-import "../vendor/fontawesome-free/css/all.min.css";
+
 import { Collapse } from "bootstrap";
 import { Link } from "react-router-dom";
 function SideBar() {
@@ -81,7 +80,11 @@ function SideBar() {
           <div id="collapseComponents" className="collapse">
             <div className="bg-white py-2 collapse-inner rounded">
               <h6 className="collapse-header">Custom Components:</h6>
-              <Link className="collapse-item" to="/button">
+              <Link
+                className="collapse-item"
+                to="/button"
+                state={{ name: "XXX", age: 25 }}
+              >
                 Buttons
               </Link>
               <Link className="collapse-item" to="/cards">

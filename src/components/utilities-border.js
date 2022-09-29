@@ -1,11 +1,9 @@
 import React from "react";
-import SideBar from "./sidebar";
 import TopBar from "./topbar";
 
 function UtilitiesBorder() {
   return (
     <div id="wrapper">
-      <SideBar />
       <div id="content">
         <TopBar />
         {/* <!-- Begin Page Content --> */}

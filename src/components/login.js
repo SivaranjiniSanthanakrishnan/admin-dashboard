@@ -1,12 +1,7 @@
-import React, { useState } from "react";
-import App from "../App";
+import React from "react";
 import { Link } from "react-router-dom";
 
 function Login() {
-  const [login, setLogin] = useState(false);
-  const handleClick = () => {
-    setLogin(true);
-  };
   return (
     <>
       <div class="container">

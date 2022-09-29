@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
-import "../css/sb-admin-2.min.css";
-import "../vendor/fontawesome-free/css/all.min.css";
+// import "../css/sb-admin-2.min.css";
+// import "../vendor/fontawesome-free/css/all.min.css";
 import { Line } from "react-chartjs-2";
 import { Doughnut } from "react-chartjs-2";
-import SideBar from "./sidebar";
 import TopBar from "./topbar";
 
 // Set new default font family and font color to mimic Bootstrap's default styling
@@ -38,7 +37,6 @@ function number_format(number, decimals, dec_point, thousands_sep) {
 function Dashboard() {
   return (
     <div id="wrapper">
-      <SideBar></SideBar>
       <div id="content">
         <TopBar />
         {/* // <!-- Begin Page Content --> */}

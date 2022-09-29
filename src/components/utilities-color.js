@@ -1,10 +1,8 @@
 import React from "react";
-import SideBar from "./sidebar";
 import TopBar from "./topbar";
 function UtilitiesColor() {
   return (
     <div id="wrapper">
-      <SideBar />
       <div id="content">
         <TopBar />
         {/* <!-- Begin Page Content --> */}

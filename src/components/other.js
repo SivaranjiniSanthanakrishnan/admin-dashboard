@@ -1,11 +1,9 @@
 import React from "react";
-import SideBar from "./sidebar";
 import TopBar from "./topbar";
 
 function Other() {
   return (
     <div id="wrapper">
-      <SideBar />
       {/* <!-- Begin Page Content --> */}
       <div id="wrapper">
         <TopBar />

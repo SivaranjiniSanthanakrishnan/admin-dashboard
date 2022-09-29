@@ -1,5 +1,4 @@
 import React from "react";
-import SideBar from "./sidebar";
 import TopBar from "./topbar";
 import { Line } from "react-chartjs-2";
 import { Doughnut } from "react-chartjs-2";
@@ -34,7 +33,6 @@ function Chart() {
   return (
     <>
       <div id="wrapper">
-        <SideBar />
         <div id="content">
           <TopBar />
           <div class="container-fluid">

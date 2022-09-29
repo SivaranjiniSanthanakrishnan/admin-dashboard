@@ -1,11 +1,9 @@
 import React from "react";
-import SideBar from "./sidebar";
 import TopBar from "./topbar";
 
 function UtilitiesAnimation() {
   return (
     <div id="wrapper">
-      <SideBar />
       {/* <!-- Main Content --> */}
       <div id="content">
         <TopBar />
